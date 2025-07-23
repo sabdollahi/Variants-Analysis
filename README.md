@@ -32,3 +32,14 @@ Simply replace the name of your Excel file to "GENE-LIST-FILE.xlsx" in line 26 a
 ```
 python gnomad_variants_details_extractor.py
 ```
+
+### Compute the Ratio of Pathogenicity and Missense of the genes
+
+
+If you are interested in to compute the ratio of number of pathogenic;likely pathogenic over the number of missense variants, the ratio of number of pathogenic;likely pathogenic over the length of the protein, and the ratio of the number of missense variants over the length of the protein, you can use the following command:
+
+```
+python compute_gene_missense_pathogenic_ratios.py
+```
+
+**Note:** Remember to replace the name of the directory in line No. 14, and also remember that the name of the files in the directory must have suffix of "variants.csv".
