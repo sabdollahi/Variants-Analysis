@@ -26,3 +26,9 @@ python gnomad_constraint_metrics_extractor.py
 
 To extract the details of each variant in the genes, again, given a list of gene symbols in an Excel file with header of "Gene_Symbol" and we extract the detail of the variants such as Variant ID, Chromosome, Position, RS IDs, HGVS Consequence, Coding Change, Protein Change, VEP Consequence, Clinical Significance, ClinVar Variation ID, Allele Count/Frequency/Number for genome and exome, Homozygote/Hemizygote Count for genome and exome, CADD score, SpliceAI Ds Max score, Pangolin Largest Ds score, and PhyLop score. 
 For each gene, we generate a new file with suffix of "_variants.csv" containing the details of the variants.
+
+Simply replace the name of your Excel file to "GENE-LIST-FILE.xlsx" in line 26 and run the following code:
+
+```
+python gnomad_variants_details_extractor.py
+```
