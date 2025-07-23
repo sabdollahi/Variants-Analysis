@@ -1,7 +1,7 @@
 '''
 Author: Sina Abdollahi
 Release Date: 23.07.2025
-Title: Extracting the variants information from gnomAD 
+Title: Extracting the constraint metrics of variants from gnomAD 
 
 Description: Given a list of gene symbols in an Excel file with header of "Gene_Symbol" and we extract 
 the variants' information such as Expected Loss of function, Observed Loss of function, 
